@@ -2,7 +2,7 @@ from django.shortcuts import render
 from inventario.models import venta
 import plotly.express as px
 import pandas as pd
-# Create your views here.
+#Create your views here.
 def interfas(request):
 
     ventas = venta.objects.all()
